@@ -1,0 +1,33 @@
+{
+  "name": "bober.js",
+  "version": "0.0.1",
+  "description": "something awesome!",
+  "main": "index.js",
+  "bin": {
+    "bober": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nv3n7or/bober.js.git"
+  },
+  "keywords": [
+    "bober"
+  ],
+  "author": "1nv3n7or",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1nv3n7or/bober.js/issues"
+  },
+  "homepage": "https://github.com/1nv3n7or/bober.js#readme",
+  "dependencies": {
+    "commander": "14.0.0",
+    "directory-tree": "3.5.2",
+    "ejs": "3.1.10",
+    "espree": "10.3.0",
+    "fs-extra": "11.3.0",
+    "proxyquire": "2.1.3"
+  }
+}
