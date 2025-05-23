@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img width="300" src="https://github.com/user-attachments/assets/55a713dc-47bc-48e0-940d-86fbba42673a"></a>
+</p>
+<p align="center">
+    <a href="https://github.com/1nv3n7or/bober.js/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a>
+</p>
 # Bober CLI
 
 Bober CLI is a command-line tool for generating files based on templates and source files. It leverages the `bober` library to process individual files or entire directories, with options to override existing files.
