@@ -6,7 +6,8 @@ function boberDirectory(dirName, templateName, options = {}) {
   const files = getFileList(dirName);
 
   files.forEach((file) => {
-    const filePath = `${file.path}/${file.fileName}`;
+    const filePath = `${file.path}${file.fileName}`;
+
     const parseResult = parse(filePath);
 
     generateFile(parseResult, templateName, filePath, options);
